@@ -1,0 +1,44 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  display: block;
+  width: 100px;
+}
+h1 {
+  color: #d35555;
+}
+
+img {
+  width: 200px;
+  display: block;
+}
+
+p.data span {
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  display: inline;
+}
+
+footer {
+  border-top: 1px solid #888;
+  margin-top: auto;
+}
